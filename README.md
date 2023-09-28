@@ -2,7 +2,7 @@
 
 app for practice : Instagram
 
-recording video when project running : 
+recording video when project running : https://drive.google.com/file/d/1RsM_VHAaDCGzkl70dQY4a1Bby_bVeAc2/view?usp=sharing
 
 Install WebDriverIO
 
