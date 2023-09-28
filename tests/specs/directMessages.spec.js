@@ -9,6 +9,7 @@ describe('Direct Messages', () => {
     await HomePage.clickUserFirst();
     await UserProfile.verifyName('Sekar Arum');
     await UserProfile.clickBtnMessage();
+    await RoomChat.verifyName('Sekar Arum');
     await RoomChat.typingMessages('Test untuk mengirim pesan');
     await RoomChat.clickBtnMessages();
   }).timeout(120000)
