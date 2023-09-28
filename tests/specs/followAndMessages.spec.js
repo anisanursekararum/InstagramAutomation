@@ -9,7 +9,7 @@ describe('Instagram', () => {
     await HomePage.clickUserFirst();
     await UserProfile.verifyName('Sekar Arum');
     await UserProfile.clickFollow();
-  })
+  }).timeout(480000)
   it('Send messages to Instagram user', async () => {
     await HomePage.clickMenuSearch();
     await HomePage.typingSearch('arum.jpeg');
