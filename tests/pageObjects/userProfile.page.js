@@ -5,7 +5,7 @@ class UserProfile {
   }
 
   get btnMessages(){
-    return $('(//*[@resource-id="com.instagram.android:id/button_container" and @content-desc="Message"])')
+    return $('(//*[@resource-id="com.instagram.android:id/button_container" and @content-desc="Kirim Pesan"])')
   }
 
   get btnFollow(){

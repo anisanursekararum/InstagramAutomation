@@ -5,7 +5,7 @@ class RoomChat {
   }
 
   get btnSend(){
-    return $('(//*[@resource-id="com.instagram.android:id/button_container" and @content-desc="Message"])')
+    return $('(//*[@resource-id="com.instagram.android:id/row_thread_composer_button_send"])')
   }
 
   get Name(){
@@ -22,7 +22,7 @@ class RoomChat {
   }
 
   async verifyName(expectedName){
-    const name = this.profileName.getText()
+    const name = this.Name.getText()
     expect(name).toHaveValue(expectedName)
   }
 }
